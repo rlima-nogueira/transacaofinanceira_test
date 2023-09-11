@@ -1,11 +1,8 @@
 # TransacaoFinanceira
-Case para refatoração
+Esse projeto está sendo executado no .NET 7.0; 
 
-Passos a implementar:
-1. Corrija o que for necessario para resolver os erros de compilação.
-2. Execute o programa para avaliar a saida, identifique e corrija o motivo de algumas transacoes estarem sendo canceladas mesmo com saldo positivo e outras sem saldo sendo efetivadas.
-3. Aplique o code review e refatore conforme as melhores praticas(SOLID,Patterns,etc).
-4. Implemente os testes unitários que julgar efetivo.
-5. Crie um git hub e compartilhe o link respondendo o ultimo e-mail.
+Foi implementado algumas mensagens de saída para validar quais os valores iniciais e quais os finais. 
+O projeto ficou separado em models e services. 
 
-Obs: Voce é livre para implementar na linguagem de sua preferência desde que respeite as funcionalidades e saídas existentes, além de aplicar os conceitos solicitados.
+
+<img src="./assets/desafio_sr.drawio.png">

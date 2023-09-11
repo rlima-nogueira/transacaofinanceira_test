@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bin\\Debug",
-    "\\bin\\Release",
-    "\\bin\\Release\\net7.0",
-    "\\models"
+    "\\src"
   ],
-  "SelectedNode": "\\models",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
