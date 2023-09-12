@@ -12,4 +12,11 @@ O projeto contém uma solution que une os projetos: o principal e os testes.
 <img src="./assets/thumbnail_SR.png">
 
 # Sugestão para a arquitetura 
-<img src="./assets/desafio_sr.drawio.png">
+
++ Desacoplamento na utilização do SQS para recebimento das requisições no api gateway 
++ Step function possibilita separar as transações, deixando individualizado cada ação
++ Cloudwatch monitarando as requisições e enviando alarme via SNS
++ Ciclo de vida do S3 para salvar o histórico por 5 anos
+
+
+<img src="./assets/desafio_sr.png">
