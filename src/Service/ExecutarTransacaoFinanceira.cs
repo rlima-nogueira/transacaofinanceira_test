@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using TransacaoFinanceira.Models;
 namespace TransacaoFinanceira.Service
 {
-    public class ExecutarTransacaoFinanceira: acessoDados
+    public class ExecutarTransacaoFinanceira: AcessoDados
        {
-           public void transferir(int correlation_id, long conta_origem, long conta_destino, decimal valor)
+           public void Transferir(int correlation_id, long conta_origem, long conta_destino, decimal valor)
         {
             ContasSaldo conta_saldo_origem = getSaldo<ContasSaldo>(conta_origem);
             Console.WriteLine("############################################");
@@ -31,10 +31,10 @@ namespace TransacaoFinanceira.Service
         }
     }
 
-    public class acessoDados
+    public class AcessoDados
     {
-        private List<ContasSaldo> TABELA_SALDOS;
-        public acessoDados()
+        private readonly List<ContasSaldo> TABELA_SALDOS;
+        public AcessoDados()
         {
             TABELA_SALDOS = new List<ContasSaldo>();
             TABELA_SALDOS.Add(new ContasSaldo(938485762, 180));
