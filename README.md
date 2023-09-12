@@ -19,4 +19,4 @@ O projeto contém uma solution que une os projetos: o principal e os testes.
 + Ciclo de vida do S3 para salvar o histórico por 5 anos
 
 
-<img src="./assets/desafio_sr.png">
+<img src="./assets/desafio_v3.png">
